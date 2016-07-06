@@ -1,0 +1,47 @@
+{
+  "status": {
+    "code": "0",
+    "message": "successful"
+  },
+  "distance": 10.066047416644869,
+  "currentDate": "2015-03-25 13:45:42 UTC",
+  "percentage": 100,
+  "EstimatedFinish": "09:29:45",
+  "runnerList": [
+    {
+      "checkpoint": "Timestart",
+      "timeDay": "00:00:00",
+      "estimation": "false",
+      "time": "07:20:02",
+      "pace": 0
+    },
+    {
+      "checkpoint": "Checkpoint1",
+      "timeDay": "00:08:27",
+      "estimation": "false",
+      "time": "07:28:29",
+      "pace": 2.1373151918693023
+    },
+    {
+      "checkpoint": "Checkpoint3",
+      "timeDay": "01:01:40",
+      "estimation": "false",
+      "time": "08:21:42",
+      "pace": 13.465595516204788
+    },
+    {
+      "checkpoint": "Checkpoint4",
+      "timeDay": "01:04:44",
+      "estimation": "false",
+      "time": "08:24:46",
+      "pace": 4.587291710898517
+    },
+    {
+      "checkpoint": "Timefinish",
+      "timeDay": "02:09:43",
+      "estimation": "false",
+      "time": "09:29:45",
+      "pace": 43.556596044097944
+    }
+  ]
+}

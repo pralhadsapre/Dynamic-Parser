@@ -1,0 +1,58 @@
+{
+  "status": {
+    "code": "0",
+    "message": "successful"
+  },
+  "distance": 8.574118771267202,
+  "currentDate": "2015-03-25 13:41:15 UTC",
+  "percentage": 10,
+  "bibNo": 54555,
+  "EstimatedFinish": "18:35:05",
+  "checkpoint1": "",
+  "checkpoint2": "Timefinish",
+  "checkpoint3": "IntermediateCheckpoint",
+  "runnerList": [
+    {
+      "checkpoint": "shuruvat",
+      "timeDay": "00:00:00",
+      "estimation": "false",
+      "time": "18:33:36",
+      "pace": 0
+    },
+    {
+      "checkpoint": "",
+      "timeDay": "00:00:35",
+      "estimation": "false",
+      "time": "18:34:11",
+      "pace": 0.14754641363989265
+    },
+    {
+      "checkpoint": "Checkpoint2",
+      "timeDay": "00:00:54",
+      "estimation": "false",
+      "time": "18:34:30",
+      "pace": 0.14726691252773488
+    },
+    {
+      "checkpoint": "Checkpoint3",
+      "timeDay": "00:01:10",
+      "estimation": "false",
+      "time": "18:34:46",
+      "pace": 0.1480037325475566
+    },
+    {
+      "checkpoint": "Checkpoint4",
+      "timeDay": "00:01:16",
+      "estimation": "false",
+      "time": "18:34:52",
+      "pace": 0.14958559926842996
+    },
+    {
+      "checkpoint": "anth",
+      "timeDay": "00:01:29",
+      "estimation": "true",
+      "time": "18:35:05",
+      "pace": 0.14522589088824653
+    }
+  ]
+}

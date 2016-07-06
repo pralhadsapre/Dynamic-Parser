@@ -1,0 +1,25 @@
+{
+  "feeds": {
+    "array": "@data->$0..$",
+    "object": {
+      "id": "@id",
+      "creator": {
+        "objectKey": "@from",
+        "object": {
+          "category": "@category",
+          "name": "@name",
+          "id": "@id"
+        }
+      },
+      "message": "@message",
+      "description": "@description",
+      "comments": {
+        "array": "@comments->@data->$0..$",
+        "object": {
+          "name": "@from->@name",
+          "message": "@message"
+        }
+      }
+    }
+  }
+}

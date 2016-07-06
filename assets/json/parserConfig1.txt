@@ -1,0 +1,27 @@
+{
+  "distance1": "@kms->@metricUnits->$2",
+  "distance2": "@kms->@metricUnits->$1",
+  "distance3": "@kms->@metricUnits->$0->@firstHike->$$",
+  "trailname": "@kms->@metricUnits->$0->@hikeName",
+  "age": "@years",
+  "percentage": "@percentage",
+  "date": "@currentDate",
+  "estimatedFinish": {
+    "key": "@EstimatedFinish",
+    "NA": "00:00:00"
+  },
+  "checkpoints": {
+    "array": "@runnerList->$0..$",
+    "object": {
+      "name": {
+        "key": "@checkpoint",
+        "Timestart": "begin",
+        "Timefinish": "end"
+      },
+      "clockTime": "@time",
+      "relativeTime": "@timeDay",
+      "pace": "@pace",
+      "isCrossed": "@estimation"
+    }
+  }
+}

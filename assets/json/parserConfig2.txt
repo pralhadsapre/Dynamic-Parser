@@ -1,0 +1,46 @@
+{
+  "runnerList": "@runnerList->$0..$",
+  "checkpoint1": {
+    "key": "@checkpoint1",
+    "override": [
+      {
+        "value": "Timestart",
+        "override": "Begin"
+      },
+      {
+        "value": "start",
+        "override": "beginning"
+      }
+    ],
+    "default": "Checkpoint",
+    "hardcode": "The first checkpoint"
+  },
+  "checkpoint2": {
+    "key": "@checkpoint2",
+    "override": [
+      {
+        "value": "Timefinish",
+        "override": "End"
+      },
+      {
+        "value": "finish",
+        "override": "ending"
+      }
+    ]
+  },
+  "checkpoint3": "@checkpoint3",
+  "percentage": {
+    "key": "@percentage",
+    "default": 10.0
+  },
+  "bib": {
+    "key": "@bibNo",
+    "override": [
+      {
+        "value": 54555,
+        "override": 1000
+      }
+    ],
+    "default": 55
+  }
+}

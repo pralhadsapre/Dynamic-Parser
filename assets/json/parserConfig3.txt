@@ -1,0 +1,32 @@
+{
+  "distance": "@distance",
+  "currentDate": "@currentDate",
+  "percentage": "@percentage",
+  "bibNo":"@bibNo",
+  "estimatedFinish": {
+    "key": "@EstimatedFinish"
+  },
+  "checkpoints": {
+    "array": "@runnerList->$0..$",
+    "object": {
+      "name": {
+        "key": "@checkpoint",
+        "override": [
+          {
+            "value": "shuruvat",
+            "override": "Timestart"
+          },
+          {
+            "value": "anth",
+            "override": "Timefinish"
+          }
+        ],
+        "default":"someCheckpointName" 
+      },
+      "clockTime": "@time",
+      "relativeTime": "@timeDay",
+      "pace": "@pace",
+      "isCrossed": "@estimation"
+    }
+  }
+}
